@@ -3,18 +3,23 @@
 
 Using Flask_login
 
-#Steps
-
-#Create virtual environment
+### Prepare environment
+1.Create virtual environment 
+```
 virtualenv venv
- 
-#Activate virtual environment (in CMD)
-.\venv\Scripts\Activate
- 
-#Install libraries 
-pip install -r requirements.txt
+```
 
-#Run app.py using below command to start Flask API
+2. Activate virtual environment (in CMD)
+```
+.\venv\Scripts\Activate
+```
+3. Install libraries 
+```
+pip install -r requirements.txt
+```
+### Run project
+
+1.Run app.py using below command to start Flask API
 python app.py
 By default, flask will run on port 5000.
 
